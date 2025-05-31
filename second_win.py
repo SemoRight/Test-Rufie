@@ -7,6 +7,7 @@ from PyQt5.QtWidgets import (
        QPushButton, QLabel, QListWidget, QLineEdit)
 
 from instr import *
+from final_win import *
 
 class TestWin(QWidget):
     def __init__(self):
@@ -82,9 +83,6 @@ class TestWin(QWidget):
         self.btn_next.clicked.connect(self.next_click)
 
     def set_appear(self):
-        self.setWindowTitle(txt_title)
-        self.resize(win_width, win_height)
-        self.move(win_x, win_y)
         self.setWindowTitle(txt_title)
         self.resize(win_width, win_height)
         self.move(win_x, win_y)
