@@ -8,7 +8,7 @@ from PyQt5.QtWidgets import (
 
 from instr import *
 
-class TestWin(QWidget):
+class FinalWin(QWidget):
     def __init__(self):
         super().__init__()
         self.set_appear()
